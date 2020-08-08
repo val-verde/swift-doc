@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .revision("0.50300.0")),
         .package(url: "https://github.com/SwiftDocOrg/SwiftSemantics.git", .upToNextMinor(from: "0.1.0")),
-        .package(url: "https://github.com/SwiftDocOrg/CommonMark.git", .upToNextMinor(from: "0.4.0")),
+        .package(url: "https://github.com/SwiftDocOrg/CommonMark.git", .branch("master")),
         .package(url: "https://github.com/SwiftDocOrg/SwiftMarkup.git", .upToNextMinor(from: "0.2.1")),
         .package(url: "https://github.com/SwiftDocOrg/GraphViz.git", .upToNextMinor(from: "0.1.2")),
         .package(url: "https://github.com/NSHipster/HypertextLiteral.git", .upToNextMinor(from: "0.0.2")),
