@@ -4,6 +4,7 @@
 /*.xcodeproj
 xcuserdata/
 .swiftpm
+Package.resolved
 
 Resources/*.css
 !Resources/*.min.css
