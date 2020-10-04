@@ -22,8 +22,8 @@ let package = Package(
         .package(url: "https://github.com/val-verde/Markup.git", .branch("val-verde-mainline")),
         .package(url: "https://github.com/val-verde/SwiftSyntaxHighlighter.git", .branch("val-verde-mainline")),
         .package(url: "https://github.com/val-verde/swift-argument-parser.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/swift-log.git", .branch("val-verde-mainline")),
-        .package(name: "LoggingGitHubActions", url: "https://github.com/val-verde/swift-log-github-actions.git", .branch("val-verde-mainline")),
+        .package(url: "https://github.com/val-verde/swift-log.git", .branch("val-verde-android-mainline")),
+        .package(name: "LoggingGitHubActions", url: "https://github.com/val-verde/swift-log-github-actions.git", .branch("val-verde-android-mainline")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
