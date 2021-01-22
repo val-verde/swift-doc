@@ -13,17 +13,17 @@ let package = Package(
         .library(name: "SwiftDoc", targets: ["SwiftDoc"])
     ],
     dependencies: [
-        .package(name: "SwiftSyntax", url: "https://github.com/val-verde/swift-syntax.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/SwiftSemantics.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/CommonMark.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/SwiftMarkup.git", .branch("val-verde-mainline")),
+        .package(name: "SwiftSyntax", url: "https://github.com/val-verde/swift-syntax.git", .branch("val-verde-mainline-next")),
+        .package(url: "https://github.com/val-verde/SwiftSemantics.git", .branch("val-verde-mainline-next")),
+        .package(url: "https://github.com/val-verde/CommonMark.git", .branch("val-verde-mainline-next")),
+        .package(url: "https://github.com/val-verde/SwiftMarkup.git", .branch("val-verde-mainline-next")),
         .package(url: "https://github.com/SwiftDocOrg/GraphViz.git", .upToNextMinor(from: "0.1.2")),
         .package(url: "https://github.com/NSHipster/HypertextLiteral.git", .upToNextMinor(from: "0.0.2")),
         .package(url: "https://github.com/val-verde/Markup.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/SwiftSyntaxHighlighter.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/swift-argument-parser.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/swift-log.git", .branch("val-verde-mainline")),
-        .package(name: "LoggingGitHubActions", url: "https://github.com/val-verde/swift-log-github-actions.git", .branch("val-verde-mainline")),
+        .package(url: "https://github.com/val-verde/SwiftSyntaxHighlighter.git", .branch("val-verde-mainline-next")),
+        .package(url: "https://github.com/val-verde/swift-argument-parser.git", .branch("val-verde-mainline-next")),
+        .package(url: "https://github.com/val-verde/swift-log.git", .branch("val-verde-mainline-next")),
+        .package(name: "LoggingGitHubActions", url: "https://github.com/val-verde/swift-log-github-actions.git", .branch("val-verde-mainline-next")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
